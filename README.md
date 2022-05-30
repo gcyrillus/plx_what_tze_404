@@ -9,7 +9,7 @@ PLUGIN PLUXML | Ce plugin vous permet de pister et de découvrir vos 404 | Allow
     <li> <b>L'une</b> , consiste à integreer le hook dans la page d'erreur de votre thème de façon à comptabiliser son affichage, à en extraire l'adresse recherché par le visiteur, son origine si il y a,  son IP et l'agent (navigateur ou robot ) </li>
     <li> <b>l'autre</b> est a effectué sur un fichier du coeur de PluXml qui vous permettra de rediriger toutes les adresses obsoletes ou inconnue pointant sur votre site vers la page d'erreur au lieu de la page d'accueil.</li>
   </ul>
-  <h3>modification du fichier <code>erreur.php</code> du tème </h3>
+  <h3>modification du fichier <code>erreur.php</code> du thème </h3>
   <p>Pour enregistrer les information menant à cette page d'erreur, il suffit d'inserer dans le fichier <code>erreur.php</code> de votre/vos thème le code suivant:<br>
 <code>&lt;?php if (eval($plxMotor->plxPlugins->callHook('get404'))) return; ?></code><br> en ajout comme derniere ligne.</p>
   <h3>Modication du coeur de PluXml</h3>
