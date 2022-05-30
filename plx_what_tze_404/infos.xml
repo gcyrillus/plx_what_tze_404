@@ -9,4 +9,5 @@
 	| - Comptage et affichage des pages 404 (agent/request/referrer/date)
 	| - multilingue
 	| - Necessite au 30/05/2022 de remplir une valeur dans le fichier class.plx.motor.php de PluXml pour être completement efficient. Voir l'aide du plugin.]]></description>
+	<scope>admin</scope>
 </document>
