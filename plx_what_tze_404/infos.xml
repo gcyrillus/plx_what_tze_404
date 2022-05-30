@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <title><![CDATA[Quelles 404 ?]]></title>
+    <author><![CDATA[G.Cyrillus]]></author>
+    <version>0.1</version>
+    <date>30/05/2022</date>
+    <site>http://re7net.com</site>
+    <description><![CDATA[D'où viennent vos pages d'erreurs? 
+	| - Comptage et affichage des pages 404 (agent/request/referrer/date)
+	| - multilingue
+	| - Necessite au 30/05/2022 de remplir une valeur dans le fichier class.plx.motor.php de PluXml pour être completement efficient. Voir l'aide du plugin.]]></description>
+</document>
