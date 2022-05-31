@@ -21,7 +21,7 @@ PLUGIN PLUXML | Ce plugin vous permet de pister et de découvrir vos 404 | Allow
     <code>		if(!empty($this->get) and !preg_match('#^(?:blog|article\d{1,4}/|static\d{1,3}/|categorie\d{1,3}/|archives/\d{4}(?:/\d{2})?|tag/\w|page\d|preview|telechargement|download)#', $this->get)) { $this->get = 'error'; }</code></p>
   
   <p>
-    <b>c'est tout et maintenant</b> toutes les pages,dossiers,fichiers inexistants redirigeront vers votre page d'erreur vous permettant ainsi de découvrir les adresses que robots ou visiteurs ont utilisés sans succés. Votre page d'accueil ne sera plus **que** votre page d'accueil au lieu de genere du  ***duplicate content*** pour chaque page qui n'existe pas ou plus sur votre site.
+    <b>c'est tout et maintenant</b> toutes les pages,dossiers,fichiers inexistants redirigeront vers votre page d'erreur vous permettant ainsi de découvrir les adresses que robots ou visiteurs ont utilisés sans succés. Votre page d'accueil ne sera plus <b>que</b> votre page d'accueil au lieu de genere du  <b><i>duplicate content</i></b> pour chaque page qui n'existe pas ou plus sur votre site.
     </p> 
 <hr>
 </div>
