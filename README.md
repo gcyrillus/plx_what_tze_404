@@ -16,7 +16,7 @@ PLUGIN PLUXML | Ce plugin vous permet de pister et de découvrir vos 404 | Allow
   <p>Cette opération est minime et ne necessite pas de compétence particuliere, sauf celle de bien reperé la ligne 132 dans le fichier <code>plx.class.motor.php</code> qui se trouve dans le repertoire <code>core/lib/</code> de PluXml.</p>
   <p> Cette ligne contient le code suivant:<br>
     <code>		if(!empty($this->get) and !preg_match('#^(?:blog|article\d{1,4}/|static\d{1,3}/|categorie\d{1,3}/|archives/\d{4}(?:/\d{2})?|tag/\w|page\d|preview|telechargement|download)#', $this->get)) { $this->get = ''; }</code></p> 
-  <p>Pour  rapatrier toutes les mauvaises url  vers la page d'erreur, il faut remplir une valeur que PluXml ne fait pas (encore). <br>Le plus pertinent est d'utilisé le mot 'error' comme valeur. <br>Il suffit donc de remplir cette valeur manquante en fin de ligne <code>$this->get = '';</code>.</p>
+  <p>Pour  rapatrier toutes les mauvaises url  vers la page d'erreur, il faut remplir une valeur que PluXml ne fait pas (encore). <br>Le plus pertinent est d'utilisé le mot 'error' comme valeur. <br>Il suffit donc de remplir cette valeur manquante en fin de ligne <code>$this->get = '';</code> en <code>$this->get = 'error';</code>.</p>
 <p>  Notre ligne modifiée devient alors:<br>
     <code>		if(!empty($this->get) and !preg_match('#^(?:blog|article\d{1,4}/|static\d{1,3}/|categorie\d{1,3}/|archives/\d{4}(?:/\d{2})?|tag/\w|page\d|preview|telechargement|download)#', $this->get)) { $this->get = 'error'; }</code></p>
   
